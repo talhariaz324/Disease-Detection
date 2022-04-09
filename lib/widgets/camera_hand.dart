@@ -33,12 +33,15 @@ class _MyHomePageState extends State<CameraHands> {
     Future.delayed(const Duration(seconds: 12), () {
       Navigator.of(context).pushReplacementNamed(
         MyRoutes.result,
-        arguments: getCount2! > 1 && confidence > 0.5 ? 51 : 17, // you can change confidence for the result
+        arguments: getCount2! > 1 && confidence > 0.5
+            ? 51
+            : 17, // you can change confidence for the result
       );
     });
   }
 
   loadTfliteModel() async {
+    // ignore: unused_local_variable
     String? res;
     res = await Tflite.loadModel(
         model: "assets/model_unquant.tflite", labels: "assets/labels.txt");

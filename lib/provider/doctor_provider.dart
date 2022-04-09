@@ -10,6 +10,7 @@ import '../models/patient_model.dart';
 class Doctors with ChangeNotifier {
   final String? authToken;
   final String? userId;
+  // ignore: prefer_typing_uninitialized_variables
   var id;
   Doctors(this.authToken, this.userId, this._doctors);
   List<Doctor> _doctors = [];
