@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1077485525213",
+    "project_id": "autism-disease-detection",
+    "storage_bucket": "autism-disease-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077485525213:android:b07edcdadef828b8dce334",
+        "android_client_info": {
+          "package_name": "com.example.disease_detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077485525213-ik5pr0sdetisnbgl3g4v9n38v314s327.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOTlYk3L2hMg5FvBzx34TRgKC7GJpgswE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077485525213-ik5pr0sdetisnbgl3g4v9n38v314s327.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
